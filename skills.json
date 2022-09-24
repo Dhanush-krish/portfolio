@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Go",
+        "icon": "https://img.icons8.com/color/48/golang.png"
+    },
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+    },
+    {
+        "name": "Flask",
+        "icon": "https://img.icons8.com/ios/48/flask.png"
+    },
+    {
+        "name": "Linux",
+        "icon": "https://img.icons8.com/color/48/linux--v1.png"
+    },
+    {
+        "name": "AWS",
+        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+    },
+    {
+        "name": "GCP",
+        "icon": "https://img.icons8.com/color/48/google-cloud.png"
+    },
+    {
+        "name": "Docker",
+        "icon": "https://img.icons8.com/fluency/48/docker.png"
+    },
+    {
+        "name": "kubernetes",
+        "icon": "https://img.icons8.com/color/48/kubernetes.png"
+    },
+    {
+        "name": "Helm",
+        "icon": "https://img.icons8.com/external-dreamstale-lineal-dreamstale/48/external-helm-gaming-dreamstale-lineal-dreamstale.png"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+    },
+    {
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+    },
+    {
+        "name": "HTML5",
+        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+    },
+    {
+        "name": "Bootstrap",
+        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+    },
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/000000/github.png"
+    },
+    {
+        "name": "Git VCS",
+        "icon": "https://img.icons8.com/color/48/000000/git.png"
+    }
+]

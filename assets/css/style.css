@@ -7,9 +7,11 @@
 
 /* start verticle timeline*/
 
-.portfolio {
+.about {
     background: #ff7979;
 }
+
+
 
 ::selection {
     color: #fff;
@@ -236,27 +238,6 @@
 
 /* end typing text */
 
-/* start navigation */
-/* .header_area .main_menu .navbar .navbar-brand {
-    padding: 0 2rem 0 5rem;
-    color: #fff;
-}
-
-.header_area .main_menu .navbar {
-    font-family: var(--Montserrat-bold);
-    padding: 0 2rem 0 5rem;
-    background: var(--color-nav-background);
-}
-
-.header_area .main_menu .nav-item .nav-link {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding: 1.7rem;
-    color: var(--color-nav-text);
-}
-
-*/
 /* Start Banner Area */
 
 .site-main .site-banner .site-title h3 {
@@ -287,5 +268,68 @@
     width: 90rem;
 }
 
-
 /* End Banner Area */
+
+
+/* skills section starts */
+
+.skills {
+    background: #18BC9C;
+}
+
+
+.skills .container .row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    flex-wrap: wrap;
+    gap: 1.8rem;
+}
+
+.skills .container .bar {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background: white;
+    transition: 0.2s;
+}
+
+.skills .container .bar:hover {
+    box-shadow: 2px 2px 2px white;
+    background-color: white;
+}
+
+.skills .container .bar .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.skills .container .bar .info i {
+    font-size: 4rem;
+}
+
+/* skills media queries starts*/
+@media screen and (max-width: 600px) {
+    .skills .container {
+        padding: 0;
+        margin: 0;
+    }
+
+    .skills .container .row {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 1rem;
+        padding: 2rem 0.2rem 2rem 0.2rem;
+        gap: 1rem;
+    }
+
+    .skills .container {
+        margin-top: 5px;
+        width: 100%;
+    }
+}
+
+/* skills media queries ends*/
+/* skills section ends */

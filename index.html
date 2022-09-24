@@ -110,8 +110,6 @@
                                         class="fa fa-download me-2"></i><span>Download
                                         Resume!</span></a></div>
                         </div>
-                        <!-- <div class="site-buttons"><a class="btn btn-outline-dark text-center btn-social rounded-circle"
-                                role="button" href="#"><i class="fa fa-linkedin fa-fw fa-sm"></i></a></div> -->
                     </div>
                     <div class="col-lg-6 col-md-12 banner-image">
                         <img src="assets/img/banner/banner-image.png" alt="banner-img" class="img-fluid">
@@ -123,7 +121,7 @@
         <!--  ======================= End Banner Area =======================  -->
 
         <!--  ======================= Start About Area =======================  -->
-        <section id="about" class="portfolio">
+        <section id="about" class="about">
             <div class="container">
                 <h2 class="text-uppercase text-center text-secondary">About me</h2>
                 <hr class="star-dark mb-5">
@@ -213,69 +211,49 @@
 
 
         <!--  ======================= Start Skills Area =======================  -->
-        <section class="text-white bg-primary mb-0" id="skills">
+        <section class="skills" id="skills">
             <div class="container">
-                <h2 class="text-uppercase text-center text-white">skills</h2>
-                <hr class="star-light mb-5">
-                <div class="row">
+                <h2 class="text-uppercase text-center ">skills</h2>
+                <hr class="star-dark mb-12">
+                <div class="row col-lg-12" id="skillsContainer">
+
                 </div>
         </section>
         <!--  ======================= End Skills Area =======================  -->
 
         <!--  ======================= Start Project Area =======================  -->
-        <!--  ======================= End Project Area =======================  -->
-
-
-        <!--  ======================= Start Contact Area =======================  -->
-        <section id="contact">
+        <section id="projects" class="portfolio">
             <div class="container">
-                <h2 class="text-uppercase text-center text-secondary mb-0">Contact</h2>
+                <h2 class="text-uppercase text-center text-secondary">Projects</h2>
                 <hr class="star-dark mb-5">
                 <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                            <div class="control-group">
-                                <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="text"
-                                        id="name" required="" placeholder="Name"><label
-                                        class="form-label">Name</label><small
-                                        class="form-text text-danger help-block"></small></div>
-                            </div>
-                            <div class="control-group">
-                                <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="email"
-                                        id="email" required="" placeholder="Email Address"><label
-                                        class="form-label">Email
-                                        Address</label><small class="form-text text-danger help-block"></small></div>
-                            </div>
-                            <div class="control-group">
-                                <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="tel"
-                                        id="phone" required="" placeholder="Phone Number"><label
-                                        class="form-label">Phone
-                                        Number</label><small class="form-text text-danger help-block"></small></div>
-                            </div>
-                            <div class="control-group">
-                                <div class="mb-5 form-floating controls pb-2"><textarea class="form-control"
-                                        id="message" required="" placeholder="Message"
-                                        style="height: 150px;"></textarea><label
-                                        class="form-label">Message</label><small
-                                        class="form-text text-danger help-block"></small></div>
-                            </div>
-                            <div id="success"></div>
-                            <div><button class="btn btn-primary btn-xl" id="sendMessageButton"
-                                    type="submit">Send</button>
-                            </div>
-                        </form>
-                    </div>
+                    <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-4"
+                            data-bs-toggle="modal">
+                            <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                                <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i
+                                        class="fa fa-search-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/projects/game.png">
+                        </a></div>
+                    <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-5"
+                            data-bs-toggle="modal">
+                            <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                                <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i
+                                        class="fa fa-search-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/projects/safe.png">
+                        </a></div>
                 </div>
             </div>
         </section>
 
-        <!--  ======================= End Contact Area =======================  -->
+
+        <!--  ======================= End Project Area =======================  -->
+
 
     </main>
     <!-- ===================== End main Area ====================-->
 
     <!-- ===================== Start footer Area ====================-->
-    <footer class="footer">
+    <footer id="contact" class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-5 mb-lg-0">
@@ -318,60 +296,79 @@
     </footer>
 
     <div class="text-center text-white copyright py-4">
-        <div class="container"><small>Copyright ©&nbsp;Brand 2022</small></div>
+        <div><small>
+                <p class="heart">made with
+                    <i class="fa fa-heart  fa-beat"></i>
+                </p>
+            </small></div>
     </div>
     <!-- ===================== End footer Area ====================-->
 
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-4">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5"
+                                    src="https://img.icons8.com/dusk/344/tow-truck--v2.png">
+                                <p class="mb-5">Under construction!!!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a
+                        class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button"
+                        data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-5">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5"
+                                    src="https://img.icons8.com/dusk/344/tow-truck--v2.png">
+                                <p class="mb-5">Under construction!!!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer pb-5"><a
+                            class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button"
+                            data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- jquery js file -->
+        <script src="./assets/bootstrap/js/jquery-3.6.1.min.js"></script>
+
+        <!-- Bootstrap js file -->
+        <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
 
 
 
+        <!--typing text-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+            integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <!-- jquery js file -->
-    <script src="./assets/bootstrap/js/jquery-3.6.1.min.js"></script>
-
-    <!-- Bootstrap js file -->
-    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
-
-    <!--custom js-->
-    <script src="assets/js/navbar.js"></script>
-
-    <!--typing text-->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-        var typed = new Typed(".typed", {
-            strings: ["Web Developer.", "Back-End Developer.", "Competitive Programmer."],
-            // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
-            stringsElement: null,
-            // typing speed
-            typeSpeed: 100,
-            // time before typing starts
-            startDelay: 1200,
-            // backspacing speed
-            backSpeed: 100,
-            // time before backspacing
-            backDelay: 500,
-            // loop
-            loop: true,
-            // false = infinite
-            loopCount: 10,
-            // show cursor
-            showCursor: false,
-            // character for cursor
-            cursorChar: "|",
-            // attribute to type (null == text)
-            attr: null,
-            // either html or text
-            contentType: 'html',
-            // call when done callback function
-            callback: function () { },
-            // starting callback function before each string
-            preStringTyped: function () { },
-            //callback for every typed string
-            onStringTyped: function () { },
-            // callback for reset
-            resetCallback: function () { }
-        })
-    </script>
+        <!--custom js-->
+        <script src="assets/js/script.js"></script>
 
 </body>
 
