@@ -1,12 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dhanush protfolio</title>
+    <title>Portfolio</title>
+
+    <!-- Bootstrap css file -->
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/icons/font-awesome.min.css">
+
+    <!--Iconify icons-->
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+
+    <!-- TODO Download the fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+
 </head>
+
 <body>
-    under construction!!!
+
+
+    <!-- ===================== Start Header Area ====================-->
+    <header class="header_area" id="page-top">
+        <div class="main_menu">
+            <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
+                <div class="container"><a class="navbar-brand text-capitalize" href="#page-top">Dhanush</a><button
+                        data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                        class="navbar-toggler text-white bg-primary navbar-toggler-right text-uppercase rounded"
+                        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i
+                            class="fa fa-bars"></i></button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                                    href="#about">About</a></li>
+                            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                                    href="#skills">Skills</a></li>
+                            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                                    href="#projects">projects</a></li>
+                            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                                    href="#contact">Contact</a></li>
+                            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                                    href="#page-top"> <button type="button" class="btn btn-primary btn-sm">Hire
+                                        Me</button></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- ===================== End Header Area ====================-->
+
+
+
+
+    <!-- ===================== Start Main Area ====================-->
+    <main class="site-main">
+
+
+        <!--  ======================= Start Banner Area =======================  -->
+        <section class="site-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <h3 class="title-text">Hey</h3>
+                        <h1 class="title-text">I'm Dhanush</h1>
+                        <h4 class="title-text "> <span class="typed"></span></h4>
+
+                        <div class="col-md-12  ">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a
+                                        class="btn btn-secondary text-center btn-social rounded-circle " role="link"
+                                        href="https://www.linkedin.com/in/dhanushkrish/" target="_blank"><i
+                                            class="fa fa-linkedin "></i></a></li>
+                                <li class="list-inline-item"><a
+                                        class="btn btn-secondary text-center btn-social rounded-circle" role="button"
+                                        href="https://github.com/Dhanush-krish" target="_blank"><i
+                                            class="fa fa-github "></i></a></li>
+                                <li class="list-inline-item"><a
+                                        class="btn btn-secondary text-center btn-social rounded-circle" role="button"
+                                        href="https://leetcode.com/Dhanush_krish/" target="_blank">
+                                        <iconify-icon icon="simple-icons:leetcode"></iconify-icon>
+                                    </a></li>
+
+                                <li class="list-inline-item"><a
+                                        class="btn btn-secondary text-center btn-social rounded-circle" role="button"
+                                        href="https://www.codechef.com/users/dhanush_krish" target="_blank">
+                                        <iconify-icon inline icon="simple-icons:codechef" width="25" height="25">
+                                        </iconify-icon>
+                                    </a></li>
+                                <li class="list-inline-item"><a
+                                        class="btn btn-secondary text-center btn-social rounded-circle btn-link"
+                                        role="button" href="https://www.hackerrank.com/dhanush_krish" target="_blank"><i
+                                            class="fa fa-hackerrank"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="site-buttons">
+                            <div class="d-flex flex-row flex-wrap"><a class="btn btn-primary btn-sm" role="button"
+                                    href="/assets/resume/Dhanush_Resume.pdf" download><i
+                                        class="fa fa-download me-2"></i><span>Download
+                                        Resume!</span></a></div>
+                        </div>
+                        <!-- <div class="site-buttons"><a class="btn btn-outline-dark text-center btn-social rounded-circle"
+                                role="button" href="#"><i class="fa fa-linkedin fa-fw fa-sm"></i></a></div> -->
+                    </div>
+                    <div class="col-lg-6 col-md-12 banner-image">
+                        <img src="assets/img/banner/banner-image.png" alt="banner-img" class="img-fluid">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--  ======================= End Banner Area =======================  -->
+
+        <!--  ======================= Start About Area =======================  -->
+        <section id="about" class="portfolio">
+            <div class="container">
+                <h2 class="text-uppercase text-center text-secondary">About me</h2>
+                <hr class="star-dark mb-5">
+                <div class="wrapper">
+                    <div class="center-line">
+                        <a href="#about" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+                    </div>
+                    <div class="row row-2">
+                        <section>
+                            <i class="icon fas 	fas fa-briefcase"></i>
+                            <div class="details">
+                                <span class="title">Back-End Developer</span>
+                            </div>
+                            <span><i>03/2020 - Present</i></span>
+                            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium
+                                maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+                            <div class="bottom">
+                                <a href="#">Read more</a>
+                                <i>- Someone famous</i>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="row row-1">
+                        <section>
+                            <i class="icon fas 	fas fa-briefcase"></i>
+                            <div class="details">
+                                <span class="title">Python Developer</span>
+                            </div>
+                            <span><i>08/2020 - 03/2022</i></span>
+                            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium
+                                maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+                            <div class="bottom">
+                                <a href="#">Read more</a>
+                                <i>- Someone famous</i>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="row row-2">
+                        <section>
+                            <i class="icon fas fa-briefcase"></i>
+                            <div class="details">
+                                <span class="title">Cloud Engineer Trainee</span>
+                            </div>
+                            <span><i>08/2019 - 06/2020</i></span>
+                            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium
+                                maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+                            <div class="bottom">
+                                <a href="#">Read more</a>
+                                <i>- Someone famous</i>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="row row-1">
+                        <section>
+                            <i class="icon fas fas fa-user-graduate"></i>
+                            <div class="details">
+                                <span class="title">Electrical and Electronics Engineering</span>
+                            </div>
+                            <span><i>06/2016 - 06/2020</i></span>
+                            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium
+                                maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+                            <div class="bottom">
+                                <a href="#">Read more</a>
+                                <i><b>8.17 CGPA</b></i>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="row row-2">
+                        <section>
+                            <i class="icon fas fa-user-tie"></i>
+                            <div class="details">
+                                <span class="title">Higher Secondary</span>
+                            </div>
+                            <span><i>06/2016 - 06/2020</i></span>
+                            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium
+                                maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+                            <div class="bottom">
+                                <a href="#">Read more</a>
+                                <i><b>85.66 %</b></i>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  ======================= End About Area =======================  -->
+
+
+        <!--  ======================= Start Skills Area =======================  -->
+        <section class="text-white bg-primary mb-0" id="skills">
+            <div class="container">
+                <h2 class="text-uppercase text-center text-white">skills</h2>
+                <hr class="star-light mb-5">
+                <div class="row">
+                </div>
+        </section>
+        <!--  ======================= End Skills Area =======================  -->
+
+        <!--  ======================= Start Project Area =======================  -->
+        <!--  ======================= End Project Area =======================  -->
+
+
+        <!--  ======================= Start Contact Area =======================  -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="text-uppercase text-center text-secondary mb-0">Contact</h2>
+                <hr class="star-dark mb-5">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                            <div class="control-group">
+                                <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="text"
+                                        id="name" required="" placeholder="Name"><label
+                                        class="form-label">Name</label><small
+                                        class="form-text text-danger help-block"></small></div>
+                            </div>
+                            <div class="control-group">
+                                <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="email"
+                                        id="email" required="" placeholder="Email Address"><label
+                                        class="form-label">Email
+                                        Address</label><small class="form-text text-danger help-block"></small></div>
+                            </div>
+                            <div class="control-group">
+                                <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="tel"
+                                        id="phone" required="" placeholder="Phone Number"><label
+                                        class="form-label">Phone
+                                        Number</label><small class="form-text text-danger help-block"></small></div>
+                            </div>
+                            <div class="control-group">
+                                <div class="mb-5 form-floating controls pb-2"><textarea class="form-control"
+                                        id="message" required="" placeholder="Message"
+                                        style="height: 150px;"></textarea><label
+                                        class="form-label">Message</label><small
+                                        class="form-text text-danger help-block"></small></div>
+                            </div>
+                            <div id="success"></div>
+                            <div><button class="btn btn-primary btn-xl" id="sendMessageButton"
+                                    type="submit">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ======================= End Contact Area =======================  -->
+
+    </main>
+    <!-- ===================== End main Area ====================-->
+
+    <!-- ===================== Start footer Area ====================-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <p><i class="fa fa-mobile p-2" aria-hidden="true"></i> +91 9787279053</p>
+                    <p><i class="fa fa-envelope p-2" aria-hidden="true"></i> dhanush.krish1998@gmail.com</p>
+                </div>
+
+                <div class="col-md-5 mb-5 mb-lg-0">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a
+                                class="btn btn-outline-light text-center btn-social rounded-circle" role="button"
+                                href="https://www.linkedin.com/in/dhanushkrish/" target="_blank"><i
+                                    class="fa fa-linkedin fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a
+                                class="btn btn-outline-light text-center btn-social rounded-circle" role="button"
+                                href="https://github.com/Dhanush-krish" target="_blank"><i
+                                    class="fa fa-github fa-fw"></i></a></li>
+
+                        <li class="list-inline-item"><a
+                                class="btn btn-outline-light text-center btn-social rounded-circle" role="button"
+                                href="https://leetcode.com/Dhanush_krish/" target="_blank">
+                                <iconify-icon icon="simple-icons:leetcode"></iconify-icon>
+                            </a></li>
+                        <li class="list-inline-item"><a
+                                class="btn btn-outline-light text-center btn-social rounded-circle" role="button"
+                                href="https://www.codechef.com/users/dhanush_krish" target="_blank">
+                                <iconify-icon inline icon="simple-icons:codechef" width="25" height="25">
+                            </a></li>
+                        <li class="list-inline-item"><a
+                                class="btn btn-outline-light text-center btn-social rounded-circle" role="button"
+                                href="https://www.hackerrank.com/dhanush_krish" target="_blank"><i
+                                    class="fa fa- fa-hackerrank"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-5 mb-lg-0">
+                    <p><i class="fa fa-map-marker p-2" aria-hidden="true"></i> Tamil Nadu, India</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="text-center text-white copyright py-4">
+        <div class="container"><small>Copyright ©&nbsp;Brand 2022</small></div>
+    </div>
+    <!-- ===================== End footer Area ====================-->
+
+
+
+
+
+    <!-- jquery js file -->
+    <script src="./assets/bootstrap/js/jquery-3.6.1.min.js"></script>
+
+    <!-- Bootstrap js file -->
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <!--custom js-->
+    <script src="assets/js/navbar.js"></script>
+
+    <!--typing text-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".typed", {
+            strings: ["Web Developer.", "Back-End Developer.", "Competitive Programmer."],
+            // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+            stringsElement: null,
+            // typing speed
+            typeSpeed: 100,
+            // time before typing starts
+            startDelay: 1200,
+            // backspacing speed
+            backSpeed: 100,
+            // time before backspacing
+            backDelay: 500,
+            // loop
+            loop: true,
+            // false = infinite
+            loopCount: 10,
+            // show cursor
+            showCursor: false,
+            // character for cursor
+            cursorChar: "|",
+            // attribute to type (null == text)
+            attr: null,
+            // either html or text
+            contentType: 'html',
+            // call when done callback function
+            callback: function () { },
+            // starting callback function before each string
+            preStringTyped: function () { },
+            //callback for every typed string
+            onStringTyped: function () { },
+            // callback for reset
+            resetCallback: function () { }
+        })
+    </script>
+
 </body>
+
 </html>

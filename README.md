@@ -1,3 +1,17 @@
+### Portfolio-Website
+Portfolio website build using HTML5, CSS3, JavaScript and jQuery.
+
+Visit Now :rocket:
+
+### :pushpin: Tech Stack
+HTML  CSS  JS jQuery
+
+#### Extras :
+Typed.js, Font Awesome
+
+
+
+
 # hosting portfolio in github
 
 1.  create a github repo
@@ -12,3 +26,5 @@ settings -> pages -> source [main] -> save
 
 ### refrence
 *   https://pages.github.com/
+*   https://github.com/jigar-sable/Portfolio-Website#readme
+*   https://github.com/akashyap2013/PortFolio_Website
