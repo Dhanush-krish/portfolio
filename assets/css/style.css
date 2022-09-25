@@ -333,3 +333,67 @@
 
 /* skills media queries ends*/
 /* skills section ends */
+
+/* certs start */
+.certs {
+    background-color: #2C3E50;
+}
+
+.certs h2 {
+    color: white;
+}
+
+
+
+.certs .container .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: wrap;
+    gap: 1.8rem;
+}
+
+.certs .container .bar {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background: white;
+    transition: 0.2s;
+}
+
+.certs .container .bar:hover {
+    box-shadow: 2px 2px 2px white;
+    background-color: white;
+}
+
+.certs .container .bar .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.certs .container .bar .info i {
+    font-size: 4rem;
+}
+
+/* skills media queries starts*/
+@media screen and (max-width: 600px) {
+    .certs .container {
+        padding: 0;
+        margin: 0;
+    }
+
+    .certs .container .row {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 1rem;
+        padding: 2rem 0.2rem 2rem 0.2rem;
+        gap: 1rem;
+    }
+
+    .certs .container {
+        margin-top: 5px;
+        width: 100%;
+    }
+}
