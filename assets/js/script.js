@@ -119,6 +119,7 @@ function showSkills(skills) {
             </div>
           </div>`
   });
+  console.log(skillHTML)
   skillsContainer.innerHTML = skillHTML;
 }
 
